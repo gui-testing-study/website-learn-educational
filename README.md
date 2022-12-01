@@ -12,6 +12,6 @@ For get the necessary python version: https://docs.python-guide.org/starting/ins
 python3 -m http.server 9999
 ```
 
-You can then access website-school-educational here: http://localhost:9999/
+You can then access website-learn-educational here: http://localhost:9999/
 
 <img src="img/template-view.png" >
