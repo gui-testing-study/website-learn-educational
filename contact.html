@@ -26,27 +26,27 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html">
+				<button data-cy="contact-navbar-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="index.html" data-cy="contact-navbar-brand">
 					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="courses.html">Courses</a></li>
-					<li><a href="fees.html">Fees</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="index.html" data-cy="contact-index">Home</a></li>
+					<li><a href="about.html" data-cy="contact-about">About</a></li>
+					<li><a href="courses.html" data-cy="contact-courses">Courses</a></li>
+					<li><a href="fees.html" data-cy="contact-fees">Fees</a></li>
+					<li><a href="portfolio.html" data-cy="contact-portfolio">Portfolio</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+						<a href="#" data-cy="contact-dropdown-toggle" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="#">Dummy Link1</a></li>
-							<li><a href="#">Dummy Link2</a></li>
-							<li><a href="#">Dummy Link3</a></li>
+							<li><a href="sidebar-right.html" data-cy="contact-right-sidebar">Right Sidebar</a></li>
+							<li><a href="#" data-cy="contact-dummy-link-1">Dummy Link1</a></li>
+							<li><a href="#" data-cy="contact-dummy-link-2">Dummy Link2</a></li>
+							<li><a href="#" data-cy="contact-dummy-link-3">Dummy Link3</a></li>
 						</ul>
 					</li>
-					<li class="active"><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="contact.html" data-cy="contact-contact">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -76,31 +76,31 @@
 						<form class="form-light mt-20" role="form">
 							<div class="form-group">
 								<label>Name</label>
-								<input type="text" class="form-control" placeholder="Your name">
+								<input type="text" class="form-control" placeholder="Your name" data-cy="email-name-input">
 							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label>Email</label>
-										<input type="email" class="form-control" placeholder="Email address">
+										<input type="email" class="form-control" placeholder="Email address" data-cy="email-address-input">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
 										<label>Phone</label>
-										<input type="text" class="form-control" placeholder="Phone number">
+										<input type="text" class="form-control" placeholder="Phone number" data-cy="phone-number-input">
 									</div>
 								</div>
 							</div>
 							<div class="form-group">
 								<label>Subject</label>
-								<input type="text" class="form-control" placeholder="Subject">
+								<input type="text" class="form-control" placeholder="Subject" data-cy="subject-input">
 							</div>
 							<div class="form-group">
 								<label>Message</label>
-								<textarea class="form-control" id="message" placeholder="Write you message here..." style="height:100px;"></textarea>
+								<textarea data-cy="message-textarea" class="form-control" id="message" placeholder="Write you message here..." style="height:100px;"></textarea>
 							</div>
-							<button type="submit" class="btn btn-two">Send message</button><p><br/></p>
+							<button data-cy="send-message-button" type="submit" class="btn btn-two">Send message</button><p><br/></p>
 						</form>
 					</div>
 					<div class="col-md-6">
@@ -146,11 +146,11 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="social text-center">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-flickr"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#" data-cy="courses-twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" data-cy="courses-facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" data-cy="courses-dribbble"><i class="fa fa-dribbble"></i></a>
+				<a href="#" data-cy="courses-flickr"><i class="fa fa-flickr"></i></a>
+				<a href="#" data-cy="courses-github"><i class="fa fa-github"></i></a>
 			</div>
 
 			<div class="clear"></div>
@@ -163,12 +163,12 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="courses.html">Courses</a> |
-								<a href="fees.html">Fees</a> |
-								<a href="portfolio.html">Portfolio</a> |
-								<a href="contact.html">Contact</a>
+								<a href="index.html" data-cy="contact-index-footer">Home</a> | 
+								<a href="about.html" data-cy="contact-about-footer">About</a> |
+								<a href="courses.html" data-cy="contact-courses-footer">Courses</a> |
+								<a href="fees.html" data-cy="contact-fees-footer">Fees</a> |
+								<a href="portfolio.html" data-cy="contact-portfolio-footer">Portfolio</a> |
+								<a href="contact.html" data-cy="contact-contact-footer">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -176,7 +176,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" data-cy="contact-webthemez" rel="develop">WebThemez.com</a>
 							</p>
 						</div>
 					</div>
