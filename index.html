@@ -26,27 +26,27 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html">
+				<button data-cy="index-navbar-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="index.html" data-cy="index-navbar-brand">
 					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="courses.html">Courses</a></li>
-					<li><a href="fees.html">Fees</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li class="active"><a href="index.html" data-cy="index-index">Home</a></li>
+					<li><a href="about.html" data-cy="index-about">About</a></li>
+					<li><a href="courses.html" data-cy="index-courses">Courses</a></li>
+					<li><a href="fees.html" data-cy="index-fees">Fees</a></li>
+					<li><a href="portfolio.html" data-cy="index-portfolio">Portfolio</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+						<a href="#" data-cy="index-dropdown-toggle" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="#">Dummy Link1</a></li>
-							<li><a href="#">Dummy Link2</a></li>
-							<li><a href="#">Dummy Link3</a></li>
+							<li><a href="sidebar-right.html" data-cy="index-right-sidebar">Right Sidebar</a></li>
+							<li><a href="#" data-cy="index-dummy-link-1">Dummy Link1</a></li>
+							<li><a href="#" data-cy="index-dummy-link-2">Dummy Link2</a></li>
+							<li><a href="#" data-cy="index-dummy-link-3">Dummy Link3</a></li>
 						</ul>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a data-cy="index-contact" href="contact.html">Contact</a></li>
 
 				</ul>
 			</div>
@@ -106,17 +106,17 @@
       	<div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">Our Students</h2></div> 
         <p><span>Perspiciatis unde omnis iste natus  sit voluptatem. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculus musull dui.</span></p>
         <p>Lorem ipsumulum aenean noummy endrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculus mus. Null dui. Fusce feugiat malesuada odio.</p>
-        <a href="#" title="read more" class="btn-inline " target="_self">read more</a> </div>
+        <a href="#" data-cy="index-read-more" title="read more" class="btn-inline " target="_self">read more</a> </div>
         
         <div class="col-md-4"><div class="title-box clearfix "><h2 class="title-box_primary">Courses</h2></div> 
             <div class="list styled custom-list">
             <ul>
-            <li><a title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="#">Mathematics and Computer Science</a></li>
-            <li><a title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="#">Mathematics and Philosophy</a></li>
-            <li><a title="Penatibus et magnis dis parturient montes ascetur ridiculus mus." href="#">Philosophy and Modern Languages</a></li>
-            <li><a title="Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci." href="#">History (Ancient and Modern)</a></li>
-            <li><a title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="#">Classical Archaeology and Ancient History</a></li>
-            <li><a title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="#">Physics and Philosophy</a></li>
+            <li><a data-cy="index-text-1" title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="#">Mathematics and Computer Science</a></li>
+            <li><a data-cy="index-text-2" title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="#">Mathematics and Philosophy</a></li>
+            <li><a data-cy="index-text-3" title="Penatibus et magnis dis parturient montes ascetur ridiculus mus." href="#">Philosophy and Modern Languages</a></li>
+            <li><a data-cy="index-text-4" title="Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci." href="#">History (Ancient and Modern)</a></li>
+            <li><a data-cy="index-text-5" title="Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus." href="#">Classical Archaeology and Ancient History</a></li>
+            <li><a data-cy="index-text-6" title="Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus." href="#">Physics and Philosophy</a></li>
             </ul>
             </div>
          </div>
@@ -181,11 +181,11 @@
     <footer id="footer">
 		<div class="container">
 			<div class="social text-center">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-flickr"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#" data-cy="index-twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" data-cy="index-facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" data-cy="index-dribbble"><i class="fa fa-dribbble"></i></a>
+				<a href="#" data-cy="index-flickr"><i class="fa fa-flickr"></i></a>
+				<a href="#" data-cy="index-github"><i class="fa fa-github"></i></a>
 			</div>
 
 			<div class="clear"></div>
@@ -198,12 +198,12 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="courses.html">Courses</a> |
-								<a href="fees.html">Fees</a> |
-								<a href="portfolio.html">Portfolio</a> |
-								<a href="contact.html">Contact</a>
+								<a href="index.html" data-cy="index-index-footer">Home</a> | 
+								<a href="about.html" data-cy="index-about-footer">About</a> |
+								<a href="courses.html" data-cy="index-courses-footer">Courses</a> |
+								<a href="fees.html" data-cy="index-fees-footer">Fees</a> |
+								<a href="portfolio.html" data-cy="index-portfolio-footer">Portfolio</a> |
+								<a href="contact.html" data-cy="index-contact-footer">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -211,7 +211,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" data-cy="index-WebThemez" rel="develop">WebThemez.com</a>
 							</p>
 						</div>
 					</div>

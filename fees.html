@@ -26,27 +26,27 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-				<a class="navbar-brand" href="index.html">
+				<button data-cy="fees-navbar-collapse" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="index.html" data-cy="fees-navbar-brand">
 					<img src="assets/images/logo.png" alt="Techro HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="courses.html">Courses</a></li>
-					<li class="active"><a href="fees.html">Fees</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="index.html" data-cy="fees-index">Home</a></li>
+					<li><a href="about.html" data-cy="fees-about">About</a></li>
+					<li><a href="courses.html" data-cy="fees-courses">Courses</a></li>
+					<li class="active"><a href="fees.html" data-cy="fees-fees">Fees</a></li>
+					<li><a href="portfolio.html" data-cy="fees-portfolio">Portfolio</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-cy="fees-dropdown">Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="#">Dummy Link1</a></li>
-							<li><a href="#">Dummy Link2</a></li>
-							<li><a href="#">Dummy Link3</a></li>
+							<li><a href="sidebar-right.html" data-cy="fees-right-sidebar">Right Sidebar</a></li>
+							<li><a href="#" data-cy="fees-dummy-link-1">Dummy Link1</a></li>
+							<li><a href="#" data-cy="fees-dummy-link-2">Dummy Link2</a></li>
+							<li><a href="#" data-cy="fees-dummy-link-3">Dummy Link3</a></li>
 						</ul>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html" data-cy="fees-contact">Contact</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -110,7 +110,7 @@
 						<strong>Live</strong> Demo
 					</li>
 					<li class="plan-action">
-						<a href="#" class="btn">Signup</a>
+						<a href="#" class="btn" data-cy="fees-signup-basic">Signup</a>
 					</li>
 				</ul>
 			</div>
@@ -138,7 +138,7 @@
 						<strong>Live</strong> Demo
 					</li>
 					<li class="plan-action">
-						<a href="#" class="btn">Signup</a>
+						<a href="#" class="btn" data-cy="fees-signup-standard">Signup</a>
 					</li>
 				</ul>
 			</div>
@@ -166,7 +166,7 @@
 						<strong>Live</strong> Demo
 					</li>
 					<li class="plan-action">
-						<a href="#" class="btn">Signup</a>
+						<a href="#" class="btn" data-cy="fees-signup-advanced">Signup</a>
 					</li>
 				</ul>
 			</div>
@@ -194,7 +194,7 @@
 						<strong>Live</strong> Demo
 					</li>
 					<li class="plan-action">
-						<a href="#" class="btn">Signup</a>
+						<a href="#" class="btn" data-cy="fees-signup-mighty">Signup</a>
 					</li>
 				</ul>
 			</div>
@@ -204,11 +204,11 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="social text-center">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-flickr"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="#" data-cy="fees-twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" data-cy="fees-facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" data-cy="fees-dribbble"><i class="fa fa-dribbble"></i></a>
+				<a href="#" data-cy="fees-flickr"><i class="fa fa-flickr"></i></a>
+				<a href="#" data-cy="fees-github"><i class="fa fa-github"></i></a>
 			</div>
 
 			<div class="clear"></div>
@@ -221,11 +221,11 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="services.html">Services</a> |
-								<a href="portfolio.html">Portfolio</a> |
-								<a href="contact.html">Contact</a>
+								<a href="index.html" data-cy="fees-index-footer">Home</a> | 
+								<a href="about.html" data-cy="fees-about-footer">About</a> |
+								<a href="services.html" data-cy="fees-services-footer">Services</a> |
+								<a href="portfolio.html" data-cy="fees-portfolio-footer">Portfolio</a> |
+								<a href="contact.html" data-cy="fees-contact-footer">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -233,7 +233,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" data-cy="fees-WebThemez" rel="develop">WebThemez.com</a>
 							</p>
 						</div>
 					</div>
